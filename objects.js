@@ -3,7 +3,7 @@ var playlist = {
 }
 
 function updatePlaylist(playlist,key,value){
-  return playlist.assign({},targetObject, updatesObject)
+  return playlist.assign({}, key, value)
 }
 
 function removeFromPlaylist(playlist,key){
